@@ -28,7 +28,7 @@ chat bot, which is able to recognize your speech through voice messages and text
 ## installation
 - use git clone to clone the git repository ->
 ```
-git clone https://github.com/amodotomi/ai-chan
+git clone https://github.com/kenjitheman/ai_chan
 ```
 ```
 npm install
