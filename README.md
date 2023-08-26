@@ -1,4 +1,4 @@
-<h2 align="left">ai chan - telegram bot | openai api</h2>
+<h2 align="center">ai chan - telegram bot | openai api</h2>
 
 ###
 
@@ -6,9 +6,9 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="200" alt="javascript logo"  />
-  <img width="" />
+  <img width="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="200" alt="docker logo"  />
 </div>
 
@@ -43,7 +43,7 @@ npm install
     "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY"
 }
 ```
-### and then run dockerfile:
+- and then run dockerfile:
 ```
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
