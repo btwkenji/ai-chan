@@ -1,4 +1,4 @@
-<h2 align="left">ai chan - telegram bot, openai api, for self use</h2>
+<h2 align="left">ai chan - telegram bot | openai api</h2>
 
 ###
 
@@ -26,24 +26,24 @@ telegram-chat-bot
 chat bot, which is able to recognize your speech through voice messages and text through text messages
 
 ## installation
-- use git clone to clone the git repository ->
+- use git clone to clone the git repository:
 ```
 git clone https://github.com/kenjitheman/ai_chan
 ```
 ```
 npm install
 ```
-this command will download and install all the dependencies defined in project
+- this command will download and install all the dependencies defined in project
 
 ## usage
-- inside config folder create production.json for production mode and default.json for development mode and inside paste your api keys like this ->
+- inside config folder create production.json for production mode and default.json for development mode and inside paste your api keys like this:
 ```
 {
     "TELEGRAM_TOKEN": "YOUR_TELEGRAM_TOKEN",
     "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY"
 }
 ```
-### and then run dockerfile ->
+### and then run dockerfile:
 ```
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
@@ -51,11 +51,9 @@ docker run -d -p 8080:80 your_image_name
 
 ## contributing
 
-- Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+- pull requests are welcome, for major changes, please open an issue first
+to discuss what you would like to change
 
-- Please make sure to update tests as appropriate.
-
-## License
+## license
 
 - [MIT](https://choosealicense.com/licenses/mit/)
