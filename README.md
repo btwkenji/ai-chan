@@ -6,13 +6,13 @@
 
 ## installation
 
-```
+```shell
 git clone https://github.com/kenjitheman/ai_chan
 ```
 
 - install all dependencies:
 
-```
+```shell
 npm install
 ```
 
@@ -20,7 +20,7 @@ npm install
 
 - inside config folder create production.json for production mode and default.json for development mode and inside paste your api keys like this:
 
-```
+```json
 {
     "TELEGRAM_TOKEN": "YOUR_TELEGRAM_TOKEN",
     "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY"
@@ -29,7 +29,7 @@ npm install
 
 - and then run dockerfile:
 
-```
+```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
