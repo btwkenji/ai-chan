@@ -1,4 +1,4 @@
-<h3 align="center">tg bot, openai api</h3>
+# tg bot, openai api
 
 - telegram-chat-bot
 - chat bot, able to recognize your speech through voice messages and text through text messages
