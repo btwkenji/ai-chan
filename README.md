@@ -7,7 +7,7 @@
 ## installation
 
 ```shell
-git clone https://github.com/kenjitheman/ai_chan
+git clone https://github.com/kenjitheman/ai-chan
 ```
 
 - install all dependencies:
