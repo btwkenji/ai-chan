@@ -1,24 +1,23 @@
-# tg bot, openai api
+# AI chan
 
-- telegram-chat-bot
-- chat bot, able to recognize your speech through voice messages and text through text messages
-##
+- Telegram-chat-bot.
+- Chat bot, able to recognize your speech through voice messages and text through text messages.
 
-## installation
+## Installation
 
 ```shell
 git clone https://github.com/kenjitheman/ai-chan
 ```
 
-- install all dependencies:
+- Install all dependencies:
 
 ```shell
 npm install
 ```
 
-## usage
+## Usage
 
-- inside config folder create production.json for production mode and default.json for development mode and inside paste your api keys like this:
+- Inside the config folder create production.json for production mode and default.json for development mode and inside paste your API keys like this:
 
 ```json
 {
@@ -27,17 +26,17 @@ npm install
 }
 ```
 
-- and then run dockerfile:
+- And then run Dockerfile:
 
 ```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first
-to discuss what you would like to change
+- Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
 ## license
 
