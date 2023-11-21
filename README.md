@@ -5,13 +5,13 @@
 
 ## Installation
 
-```shell
+```sh
 git clone https://github.com/kenjitheman/ai-chan
 ```
 
 - Install all dependencies:
 
-```shell
+```sh
 npm install
 ```
 
@@ -28,7 +28,7 @@ npm install
 
 - And then run Dockerfile:
 
-```shell
+```sh
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
