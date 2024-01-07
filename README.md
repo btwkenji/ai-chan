@@ -1,7 +1,4 @@
-# AI chan
-
-- Telegram-chat-bot.
-- Chat bot, able to recognize your speech through voice messages and text through text messages.
+> Telegram-chat-bot, able to recognize your speech through voice messages and text through text messages.
 
 ## Installation
 
